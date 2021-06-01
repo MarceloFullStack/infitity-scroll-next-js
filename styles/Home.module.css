@@ -66,3 +66,24 @@
   position:inherit;
   padding: -600px;
 }
+
+.App {
+  text-align: center;
+}
+
+.pane {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 99vh;
+  min-width: 100vw;
+  background: linear-gradient(90deg, #4aa2ff 0%, #53007c 100%);
+  display: inline-block;
+  overflow-y: scroll;
+  max-height: 100px;
+
+}
+
+.table {
+  text-align: left;
+}
